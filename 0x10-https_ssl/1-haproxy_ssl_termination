@@ -33,12 +33,12 @@ defaults
         errorfile 503 /etc/haproxy/errors/503.http
         errorfile 504 /etc/haproxy/errors/504.http
 
-listen 19018-lb-01
+listen 172695-lb-01
         bind *:80
-        bind :443 ssl crt /etc/ssl/private/www.codewithmide.pem
+        bind :443 ssl crt /etc/ssl/private/www.xanderconnect.pem
         mode http
         balance roundrobin
         reqadd X-Forwarded-Port:\ 443
         option forwardfor
-        server 19018-web-01 100.26.224.142:80 check
-        server 19018-web-02 54.160.106.148:80 check
+        server 172695-web-01 18.206.206.150:80 check
+        server 172695-web-02 18.235.233.201:80 check
