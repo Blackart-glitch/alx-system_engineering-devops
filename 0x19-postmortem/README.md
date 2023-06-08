@@ -38,16 +38,11 @@ graph TD;
   4. Conduct a post-incident review with the engineering team to share key learnings and improve incident response processes.
 
 
-@startuml
-    participant User
-    participant LoadBalancer
-    participant BackendServer
-    participant Database
-
-    User -> LoadBalancer: Request
-    LoadBalancer -> BackendServer: Distribute Request
-    BackendServer -> Database: Process Request
-    Database --> BackendServer: Retrieve Data
-    BackendServer --> LoadBalancer: Return Response
-    LoadBalancer --> User: Response
-@enduml
+```mermaid
+graph TD
+    User --> LoadBalancer
+    LoadBalancer --> BackendServer
+    BackendServer --> Database
+    Database --> BackendServer
+    BackendServer --> LoadBalancer
+    LoadBalancer --> User
