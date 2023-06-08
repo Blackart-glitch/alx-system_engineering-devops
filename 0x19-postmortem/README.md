@@ -1,6 +1,6 @@
 # Post Mortem: Software Crash Incident
 
-**Author:** Ajiboye Daniel [Github](https://github.com/Blackart-glitch)[linkedin](https://www.linkedin.com/in/daniel-boy%C3%A9-58366a1b4/)
+**Author:** Ajiboye Daniel [Github](https://github.com/Blackart-glitch)  [linkedin](https://www.linkedin.com/in/daniel-boy%C3%A9-58366a1b4/)
 
 ## Issue Summary
 
@@ -36,6 +36,7 @@ graph TD;
   2. Enhance monitoring alerts and thresholds to detect abnormal traffic patterns more effectively.
   3. Establish regular load testing procedures and incorporate them into the development and deployment lifecycle.
   4. Conduct a post-incident review with the engineering team to share key learnings and improve incident response processes.
+
 
 @startuml
     participant User
