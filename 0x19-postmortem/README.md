@@ -1,6 +1,6 @@
 # Post Mortem: Software Crash Incident
 
-**Author:** Ajiboye Daniel [Github](https://github.com/Blackart-glitch)[linkedin](https://www.linkedin.com/in/daniel-boy%C3%A9-58366a1b4/)
+**Author:** Ajiboye Daniel [Github](https://github.com/Blackart-glitch)  [linkedin](https://www.linkedin.com/in/daniel-boy%C3%A9-58366a1b4/)
 
 ## Issue Summary
 
