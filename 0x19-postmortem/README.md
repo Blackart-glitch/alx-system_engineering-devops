@@ -19,7 +19,8 @@
 graph TD;
     A[Load Balancer] --> B[Backend Servers]
     B --> C[Database]
-    
+```
+
 ## Root Cause and Resolution
 
 - **Root Cause:** The root cause of the issue was traced back to a misconfigured load balancer, which led to uneven traffic distribution and ultimately caused the software crash.
@@ -39,10 +40,11 @@ graph TD;
 
 
 ```mermaid
-graph TD
+graph TD;
     User --> LoadBalancer
     LoadBalancer --> BackendServer
     BackendServer --> Database
     Database --> BackendServer
     BackendServer --> LoadBalancer
     LoadBalancer --> User
+```
